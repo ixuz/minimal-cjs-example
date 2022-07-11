@@ -7,9 +7,8 @@ async function main() {
 
   await componentsManager.configRegistry.register("config/config.jsonld");
 
-  const app = "urn:my-module:App";
-  const appInstance = await componentsManager.instantiate(app);
-  appInstance.say();
+  const myInstance = await componentsManager.instantiate("urn:my-module:myInstance");
+  myInstance.say();
 }
 
 main();
