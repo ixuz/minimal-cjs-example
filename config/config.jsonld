@@ -1,0 +1,8 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/my-module/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "urn:my-module:App",
+  "@type": "MyComponent"
+}

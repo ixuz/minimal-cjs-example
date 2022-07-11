@@ -1,0 +1,15 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "mm": "npmd:my-module/",
+      "files-mm": "mm:^1.0.0/",
+      "MyComponent": {
+        "@id": "mm:src/MyComponent#MyComponent",
+        "@prefix": true,
+        "@context": {}
+      }
+    }
+  ]
+}

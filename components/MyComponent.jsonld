@@ -1,0 +1,16 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/my-module/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:my-module",
+  "components": [
+    {
+      "@id": "mm:src/MyComponent#MyComponent",
+      "@type": "Class",
+      "requireElement": "MyComponent",
+      "extends": [],
+      "parameters": [],
+      "constructorArguments": []
+    }
+  ]
+}
